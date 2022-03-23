@@ -299,6 +299,7 @@ static stStackMem_t* co_get_stackmem(stShareStack_t* share_stack)
 	{
 		return NULL;
 	}
+    // 队列取模 rand robin
 	int idx = share_stack->alloc_idx % share_stack->count;
 	share_stack->alloc_idx++;
 

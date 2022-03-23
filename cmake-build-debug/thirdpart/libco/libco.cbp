@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="libco"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\thirdpart\;CMake Files\thirdpart\libco\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/tmp/tmp.GSvadcqACu/cmake-build-debug/thirdpart/libco"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j6 -f &quot;/tmp/tmp.GSvadcqACu/cmake-build-debug/thirdpart/libco/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/gmake -j6 -f &quot;/tmp/tmp.GSvadcqACu/cmake-build-debug/thirdpart/libco/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j6 -f &quot;/tmp/tmp.GSvadcqACu/cmake-build-debug/thirdpart/libco/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j6 -f &quot;/tmp/tmp.GSvadcqACu/cmake-build-debug/thirdpart/libco/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="colib_shared">
+				<Option output="/tmp/tmp.GSvadcqACu/cmake-build-debug/thirdpart/libco/libcolib.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/tmp/tmp.GSvadcqACu/cmake-build-debug/thirdpart/libco"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../include/c++/4.8.5"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../include/c++/4.8.5/x86_64-redhat-linux"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../include/c++/4.8.5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j6 -f &quot;/tmp/tmp.GSvadcqACu/cmake-build-debug/thirdpart/libco/Makefile&quot;  VERBOSE=1 colib_shared"/>
+					<CompileFile command="/usr/bin/gmake -j6 -f &quot;/tmp/tmp.GSvadcqACu/cmake-build-debug/thirdpart/libco/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j6 -f &quot;/tmp/tmp.GSvadcqACu/cmake-build-debug/thirdpart/libco/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j6 -f &quot;/tmp/tmp.GSvadcqACu/cmake-build-debug/thirdpart/libco/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="colib_shared/fast">
+				<Option output="/tmp/tmp.GSvadcqACu/cmake-build-debug/thirdpart/libco/libcolib.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/tmp/tmp.GSvadcqACu/cmake-build-debug/thirdpart/libco"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../include/c++/4.8.5"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../include/c++/4.8.5/x86_64-redhat-linux"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../include/c++/4.8.5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j6 -f &quot;/tmp/tmp.GSvadcqACu/cmake-build-debug/thirdpart/libco/Makefile&quot;  VERBOSE=1 colib_shared/fast"/>
+					<CompileFile command="/usr/bin/gmake -j6 -f &quot;/tmp/tmp.GSvadcqACu/cmake-build-debug/thirdpart/libco/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j6 -f &quot;/tmp/tmp.GSvadcqACu/cmake-build-debug/thirdpart/libco/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j6 -f &quot;/tmp/tmp.GSvadcqACu/cmake-build-debug/thirdpart/libco/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="colib_static">
+				<Option output="/tmp/tmp.GSvadcqACu/cmake-build-debug/thirdpart/libco/libcolib.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/tmp/tmp.GSvadcqACu/cmake-build-debug/thirdpart/libco"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../include/c++/4.8.5"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../include/c++/4.8.5/x86_64-redhat-linux"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../include/c++/4.8.5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j6 -f &quot;/tmp/tmp.GSvadcqACu/cmake-build-debug/thirdpart/libco/Makefile&quot;  VERBOSE=1 colib_static"/>
+					<CompileFile command="/usr/bin/gmake -j6 -f &quot;/tmp/tmp.GSvadcqACu/cmake-build-debug/thirdpart/libco/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j6 -f &quot;/tmp/tmp.GSvadcqACu/cmake-build-debug/thirdpart/libco/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j6 -f &quot;/tmp/tmp.GSvadcqACu/cmake-build-debug/thirdpart/libco/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="colib_static/fast">
+				<Option output="/tmp/tmp.GSvadcqACu/cmake-build-debug/thirdpart/libco/libcolib.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/tmp/tmp.GSvadcqACu/cmake-build-debug/thirdpart/libco"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../include/c++/4.8.5"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../include/c++/4.8.5/x86_64-redhat-linux"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../include/c++/4.8.5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j6 -f &quot;/tmp/tmp.GSvadcqACu/cmake-build-debug/thirdpart/libco/Makefile&quot;  VERBOSE=1 colib_static/fast"/>
+					<CompileFile command="/usr/bin/gmake -j6 -f &quot;/tmp/tmp.GSvadcqACu/cmake-build-debug/thirdpart/libco/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j6 -f &quot;/tmp/tmp.GSvadcqACu/cmake-build-debug/thirdpart/libco/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j6 -f &quot;/tmp/tmp.GSvadcqACu/cmake-build-debug/thirdpart/libco/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/tmp/tmp.GSvadcqACu/thirdpart/libco/co_comm.cpp">
+			<Option target="colib_shared"/>
+			<Option target="colib_static"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.GSvadcqACu/thirdpart/libco/co_comm.h">
+			<Option target="colib_shared"/>
+			<Option target="colib_static"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.GSvadcqACu/thirdpart/libco/co_epoll.cpp">
+			<Option target="colib_shared"/>
+			<Option target="colib_static"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.GSvadcqACu/thirdpart/libco/co_epoll.h">
+			<Option target="colib_shared"/>
+			<Option target="colib_static"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.GSvadcqACu/thirdpart/libco/co_hook_sys_call.cpp">
+			<Option target="colib_shared"/>
+			<Option target="colib_static"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.GSvadcqACu/thirdpart/libco/co_routine.cpp">
+			<Option target="colib_shared"/>
+			<Option target="colib_static"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.GSvadcqACu/thirdpart/libco/co_routine.h">
+			<Option target="colib_shared"/>
+			<Option target="colib_static"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.GSvadcqACu/thirdpart/libco/coctx.cpp">
+			<Option target="colib_shared"/>
+			<Option target="colib_static"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.GSvadcqACu/thirdpart/libco/coctx.h">
+			<Option target="colib_shared"/>
+			<Option target="colib_static"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.GSvadcqACu/thirdpart/libco/coctx_swap.S">
+			<Option target="colib_shared"/>
+			<Option target="colib_static"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.GSvadcqACu/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.GSvadcqACu/thirdpart/libco/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\thirdpart\libco\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

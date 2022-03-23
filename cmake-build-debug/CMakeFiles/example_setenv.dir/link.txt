@@ -1,0 +1,1 @@
+/usr/bin/c++ -g CMakeFiles/example_setenv.dir/example_setenv.cpp.o -o example_setenv  thirdpart/libco/libcolib.a -lpthread -ldl 

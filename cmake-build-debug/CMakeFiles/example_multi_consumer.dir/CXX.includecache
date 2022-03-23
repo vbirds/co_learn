@@ -1,0 +1,30 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../thirdpart/libco/co_routine.h
+stdint.h
+-
+sys/poll.h
+-
+pthread.h
+-
+netinet/in.h
+-
+
+/tmp/tmp.GSvadcqACu/example_multi_consumer.cpp
+unistd.h
+-
+stdio.h
+-
+stdlib.h
+-
+queue
+-
+co_routine.h
+/tmp/tmp.GSvadcqACu/co_routine.h
+

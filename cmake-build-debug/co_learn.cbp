@@ -1,0 +1,689 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="co_learn"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\thirdpart\;CMake Files\thirdpart\libco\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/tmp/tmp.GSvadcqACu/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j6 -f &quot;/tmp/tmp.GSvadcqACu/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/gmake -j6 -f &quot;/tmp/tmp.GSvadcqACu/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j6 -f &quot;/tmp/tmp.GSvadcqACu/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j6 -f &quot;/tmp/tmp.GSvadcqACu/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/tmp/tmp.GSvadcqACu/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j6 -f &quot;/tmp/tmp.GSvadcqACu/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/gmake -j6 -f &quot;/tmp/tmp.GSvadcqACu/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j6 -f &quot;/tmp/tmp.GSvadcqACu/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j6 -f &quot;/tmp/tmp.GSvadcqACu/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/tmp/tmp.GSvadcqACu/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j6 -f &quot;/tmp/tmp.GSvadcqACu/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/gmake -j6 -f &quot;/tmp/tmp.GSvadcqACu/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j6 -f &quot;/tmp/tmp.GSvadcqACu/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j6 -f &quot;/tmp/tmp.GSvadcqACu/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="example_closure">
+				<Option output="/tmp/tmp.GSvadcqACu/cmake-build-debug/example_closure" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/tmp/tmp.GSvadcqACu/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/tmp/tmp.GSvadcqACu/thirdpart/libco"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../include/c++/4.8.5"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../include/c++/4.8.5/x86_64-redhat-linux"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../include/c++/4.8.5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j6 -f &quot;/tmp/tmp.GSvadcqACu/cmake-build-debug/Makefile&quot;  VERBOSE=1 example_closure"/>
+					<CompileFile command="/usr/bin/gmake -j6 -f &quot;/tmp/tmp.GSvadcqACu/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j6 -f &quot;/tmp/tmp.GSvadcqACu/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j6 -f &quot;/tmp/tmp.GSvadcqACu/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="example_closure/fast">
+				<Option output="/tmp/tmp.GSvadcqACu/cmake-build-debug/example_closure" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/tmp/tmp.GSvadcqACu/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/tmp/tmp.GSvadcqACu/thirdpart/libco"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../include/c++/4.8.5"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../include/c++/4.8.5/x86_64-redhat-linux"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../include/c++/4.8.5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j6 -f &quot;/tmp/tmp.GSvadcqACu/cmake-build-debug/Makefile&quot;  VERBOSE=1 example_closure/fast"/>
+					<CompileFile command="/usr/bin/gmake -j6 -f &quot;/tmp/tmp.GSvadcqACu/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j6 -f &quot;/tmp/tmp.GSvadcqACu/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j6 -f &quot;/tmp/tmp.GSvadcqACu/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="example_setenv">
+				<Option output="/tmp/tmp.GSvadcqACu/cmake-build-debug/example_setenv" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/tmp/tmp.GSvadcqACu/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/tmp/tmp.GSvadcqACu/thirdpart/libco"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../include/c++/4.8.5"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../include/c++/4.8.5/x86_64-redhat-linux"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../include/c++/4.8.5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j6 -f &quot;/tmp/tmp.GSvadcqACu/cmake-build-debug/Makefile&quot;  VERBOSE=1 example_setenv"/>
+					<CompileFile command="/usr/bin/gmake -j6 -f &quot;/tmp/tmp.GSvadcqACu/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j6 -f &quot;/tmp/tmp.GSvadcqACu/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j6 -f &quot;/tmp/tmp.GSvadcqACu/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="example_setenv/fast">
+				<Option output="/tmp/tmp.GSvadcqACu/cmake-build-debug/example_setenv" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/tmp/tmp.GSvadcqACu/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/tmp/tmp.GSvadcqACu/thirdpart/libco"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../include/c++/4.8.5"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../include/c++/4.8.5/x86_64-redhat-linux"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../include/c++/4.8.5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j6 -f &quot;/tmp/tmp.GSvadcqACu/cmake-build-debug/Makefile&quot;  VERBOSE=1 example_setenv/fast"/>
+					<CompileFile command="/usr/bin/gmake -j6 -f &quot;/tmp/tmp.GSvadcqACu/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j6 -f &quot;/tmp/tmp.GSvadcqACu/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j6 -f &quot;/tmp/tmp.GSvadcqACu/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="example_copystack">
+				<Option output="/tmp/tmp.GSvadcqACu/cmake-build-debug/example_copystack" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/tmp/tmp.GSvadcqACu/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/tmp/tmp.GSvadcqACu/thirdpart/libco"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../include/c++/4.8.5"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../include/c++/4.8.5/x86_64-redhat-linux"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../include/c++/4.8.5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j6 -f &quot;/tmp/tmp.GSvadcqACu/cmake-build-debug/Makefile&quot;  VERBOSE=1 example_copystack"/>
+					<CompileFile command="/usr/bin/gmake -j6 -f &quot;/tmp/tmp.GSvadcqACu/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j6 -f &quot;/tmp/tmp.GSvadcqACu/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j6 -f &quot;/tmp/tmp.GSvadcqACu/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="example_copystack/fast">
+				<Option output="/tmp/tmp.GSvadcqACu/cmake-build-debug/example_copystack" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/tmp/tmp.GSvadcqACu/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/tmp/tmp.GSvadcqACu/thirdpart/libco"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../include/c++/4.8.5"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../include/c++/4.8.5/x86_64-redhat-linux"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../include/c++/4.8.5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j6 -f &quot;/tmp/tmp.GSvadcqACu/cmake-build-debug/Makefile&quot;  VERBOSE=1 example_copystack/fast"/>
+					<CompileFile command="/usr/bin/gmake -j6 -f &quot;/tmp/tmp.GSvadcqACu/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j6 -f &quot;/tmp/tmp.GSvadcqACu/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j6 -f &quot;/tmp/tmp.GSvadcqACu/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="example_specific">
+				<Option output="/tmp/tmp.GSvadcqACu/cmake-build-debug/example_specific" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/tmp/tmp.GSvadcqACu/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/tmp/tmp.GSvadcqACu/thirdpart/libco"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../include/c++/4.8.5"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../include/c++/4.8.5/x86_64-redhat-linux"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../include/c++/4.8.5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j6 -f &quot;/tmp/tmp.GSvadcqACu/cmake-build-debug/Makefile&quot;  VERBOSE=1 example_specific"/>
+					<CompileFile command="/usr/bin/gmake -j6 -f &quot;/tmp/tmp.GSvadcqACu/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j6 -f &quot;/tmp/tmp.GSvadcqACu/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j6 -f &quot;/tmp/tmp.GSvadcqACu/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="example_specific/fast">
+				<Option output="/tmp/tmp.GSvadcqACu/cmake-build-debug/example_specific" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/tmp/tmp.GSvadcqACu/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/tmp/tmp.GSvadcqACu/thirdpart/libco"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../include/c++/4.8.5"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../include/c++/4.8.5/x86_64-redhat-linux"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../include/c++/4.8.5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j6 -f &quot;/tmp/tmp.GSvadcqACu/cmake-build-debug/Makefile&quot;  VERBOSE=1 example_specific/fast"/>
+					<CompileFile command="/usr/bin/gmake -j6 -f &quot;/tmp/tmp.GSvadcqACu/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j6 -f &quot;/tmp/tmp.GSvadcqACu/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j6 -f &quot;/tmp/tmp.GSvadcqACu/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="example_consumer">
+				<Option output="/tmp/tmp.GSvadcqACu/cmake-build-debug/example_consumer" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/tmp/tmp.GSvadcqACu/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/tmp/tmp.GSvadcqACu/thirdpart/libco"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../include/c++/4.8.5"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../include/c++/4.8.5/x86_64-redhat-linux"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../include/c++/4.8.5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j6 -f &quot;/tmp/tmp.GSvadcqACu/cmake-build-debug/Makefile&quot;  VERBOSE=1 example_consumer"/>
+					<CompileFile command="/usr/bin/gmake -j6 -f &quot;/tmp/tmp.GSvadcqACu/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j6 -f &quot;/tmp/tmp.GSvadcqACu/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j6 -f &quot;/tmp/tmp.GSvadcqACu/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="example_consumer/fast">
+				<Option output="/tmp/tmp.GSvadcqACu/cmake-build-debug/example_consumer" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/tmp/tmp.GSvadcqACu/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/tmp/tmp.GSvadcqACu/thirdpart/libco"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../include/c++/4.8.5"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../include/c++/4.8.5/x86_64-redhat-linux"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../include/c++/4.8.5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j6 -f &quot;/tmp/tmp.GSvadcqACu/cmake-build-debug/Makefile&quot;  VERBOSE=1 example_consumer/fast"/>
+					<CompileFile command="/usr/bin/gmake -j6 -f &quot;/tmp/tmp.GSvadcqACu/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j6 -f &quot;/tmp/tmp.GSvadcqACu/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j6 -f &quot;/tmp/tmp.GSvadcqACu/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="example_echocli">
+				<Option output="/tmp/tmp.GSvadcqACu/cmake-build-debug/example_echocli" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/tmp/tmp.GSvadcqACu/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/tmp/tmp.GSvadcqACu/thirdpart/libco"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../include/c++/4.8.5"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../include/c++/4.8.5/x86_64-redhat-linux"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../include/c++/4.8.5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j6 -f &quot;/tmp/tmp.GSvadcqACu/cmake-build-debug/Makefile&quot;  VERBOSE=1 example_echocli"/>
+					<CompileFile command="/usr/bin/gmake -j6 -f &quot;/tmp/tmp.GSvadcqACu/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j6 -f &quot;/tmp/tmp.GSvadcqACu/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j6 -f &quot;/tmp/tmp.GSvadcqACu/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="example_echocli/fast">
+				<Option output="/tmp/tmp.GSvadcqACu/cmake-build-debug/example_echocli" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/tmp/tmp.GSvadcqACu/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/tmp/tmp.GSvadcqACu/thirdpart/libco"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../include/c++/4.8.5"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../include/c++/4.8.5/x86_64-redhat-linux"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../include/c++/4.8.5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j6 -f &quot;/tmp/tmp.GSvadcqACu/cmake-build-debug/Makefile&quot;  VERBOSE=1 example_echocli/fast"/>
+					<CompileFile command="/usr/bin/gmake -j6 -f &quot;/tmp/tmp.GSvadcqACu/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j6 -f &quot;/tmp/tmp.GSvadcqACu/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j6 -f &quot;/tmp/tmp.GSvadcqACu/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="example_loop">
+				<Option output="/tmp/tmp.GSvadcqACu/cmake-build-debug/example_loop" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/tmp/tmp.GSvadcqACu/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/tmp/tmp.GSvadcqACu/thirdpart/libco"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../include/c++/4.8.5"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../include/c++/4.8.5/x86_64-redhat-linux"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../include/c++/4.8.5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j6 -f &quot;/tmp/tmp.GSvadcqACu/cmake-build-debug/Makefile&quot;  VERBOSE=1 example_loop"/>
+					<CompileFile command="/usr/bin/gmake -j6 -f &quot;/tmp/tmp.GSvadcqACu/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j6 -f &quot;/tmp/tmp.GSvadcqACu/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j6 -f &quot;/tmp/tmp.GSvadcqACu/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="example_loop/fast">
+				<Option output="/tmp/tmp.GSvadcqACu/cmake-build-debug/example_loop" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/tmp/tmp.GSvadcqACu/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/tmp/tmp.GSvadcqACu/thirdpart/libco"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../include/c++/4.8.5"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../include/c++/4.8.5/x86_64-redhat-linux"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../include/c++/4.8.5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j6 -f &quot;/tmp/tmp.GSvadcqACu/cmake-build-debug/Makefile&quot;  VERBOSE=1 example_loop/fast"/>
+					<CompileFile command="/usr/bin/gmake -j6 -f &quot;/tmp/tmp.GSvadcqACu/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j6 -f &quot;/tmp/tmp.GSvadcqACu/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j6 -f &quot;/tmp/tmp.GSvadcqACu/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="example_echosvr">
+				<Option output="/tmp/tmp.GSvadcqACu/cmake-build-debug/example_echosvr" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/tmp/tmp.GSvadcqACu/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/tmp/tmp.GSvadcqACu/thirdpart/libco"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../include/c++/4.8.5"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../include/c++/4.8.5/x86_64-redhat-linux"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../include/c++/4.8.5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j6 -f &quot;/tmp/tmp.GSvadcqACu/cmake-build-debug/Makefile&quot;  VERBOSE=1 example_echosvr"/>
+					<CompileFile command="/usr/bin/gmake -j6 -f &quot;/tmp/tmp.GSvadcqACu/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j6 -f &quot;/tmp/tmp.GSvadcqACu/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j6 -f &quot;/tmp/tmp.GSvadcqACu/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="example_echosvr/fast">
+				<Option output="/tmp/tmp.GSvadcqACu/cmake-build-debug/example_echosvr" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/tmp/tmp.GSvadcqACu/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/tmp/tmp.GSvadcqACu/thirdpart/libco"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../include/c++/4.8.5"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../include/c++/4.8.5/x86_64-redhat-linux"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../include/c++/4.8.5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j6 -f &quot;/tmp/tmp.GSvadcqACu/cmake-build-debug/Makefile&quot;  VERBOSE=1 example_echosvr/fast"/>
+					<CompileFile command="/usr/bin/gmake -j6 -f &quot;/tmp/tmp.GSvadcqACu/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j6 -f &quot;/tmp/tmp.GSvadcqACu/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j6 -f &quot;/tmp/tmp.GSvadcqACu/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="example_poll">
+				<Option output="/tmp/tmp.GSvadcqACu/cmake-build-debug/example_poll" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/tmp/tmp.GSvadcqACu/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/tmp/tmp.GSvadcqACu/thirdpart/libco"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../include/c++/4.8.5"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../include/c++/4.8.5/x86_64-redhat-linux"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../include/c++/4.8.5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j6 -f &quot;/tmp/tmp.GSvadcqACu/cmake-build-debug/Makefile&quot;  VERBOSE=1 example_poll"/>
+					<CompileFile command="/usr/bin/gmake -j6 -f &quot;/tmp/tmp.GSvadcqACu/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j6 -f &quot;/tmp/tmp.GSvadcqACu/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j6 -f &quot;/tmp/tmp.GSvadcqACu/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="example_poll/fast">
+				<Option output="/tmp/tmp.GSvadcqACu/cmake-build-debug/example_poll" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/tmp/tmp.GSvadcqACu/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/tmp/tmp.GSvadcqACu/thirdpart/libco"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../include/c++/4.8.5"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../include/c++/4.8.5/x86_64-redhat-linux"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../include/c++/4.8.5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j6 -f &quot;/tmp/tmp.GSvadcqACu/cmake-build-debug/Makefile&quot;  VERBOSE=1 example_poll/fast"/>
+					<CompileFile command="/usr/bin/gmake -j6 -f &quot;/tmp/tmp.GSvadcqACu/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j6 -f &quot;/tmp/tmp.GSvadcqACu/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j6 -f &quot;/tmp/tmp.GSvadcqACu/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="example_multi_consumer">
+				<Option output="/tmp/tmp.GSvadcqACu/cmake-build-debug/example_multi_consumer" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/tmp/tmp.GSvadcqACu/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/tmp/tmp.GSvadcqACu/thirdpart/libco"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../include/c++/4.8.5"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../include/c++/4.8.5/x86_64-redhat-linux"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../include/c++/4.8.5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j6 -f &quot;/tmp/tmp.GSvadcqACu/cmake-build-debug/Makefile&quot;  VERBOSE=1 example_multi_consumer"/>
+					<CompileFile command="/usr/bin/gmake -j6 -f &quot;/tmp/tmp.GSvadcqACu/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j6 -f &quot;/tmp/tmp.GSvadcqACu/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j6 -f &quot;/tmp/tmp.GSvadcqACu/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="example_multi_consumer/fast">
+				<Option output="/tmp/tmp.GSvadcqACu/cmake-build-debug/example_multi_consumer" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/tmp/tmp.GSvadcqACu/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/tmp/tmp.GSvadcqACu/thirdpart/libco"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../include/c++/4.8.5"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../include/c++/4.8.5/x86_64-redhat-linux"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../include/c++/4.8.5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j6 -f &quot;/tmp/tmp.GSvadcqACu/cmake-build-debug/Makefile&quot;  VERBOSE=1 example_multi_consumer/fast"/>
+					<CompileFile command="/usr/bin/gmake -j6 -f &quot;/tmp/tmp.GSvadcqACu/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j6 -f &quot;/tmp/tmp.GSvadcqACu/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j6 -f &quot;/tmp/tmp.GSvadcqACu/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="example_thread">
+				<Option output="/tmp/tmp.GSvadcqACu/cmake-build-debug/example_thread" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/tmp/tmp.GSvadcqACu/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/tmp/tmp.GSvadcqACu/thirdpart/libco"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../include/c++/4.8.5"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../include/c++/4.8.5/x86_64-redhat-linux"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../include/c++/4.8.5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j6 -f &quot;/tmp/tmp.GSvadcqACu/cmake-build-debug/Makefile&quot;  VERBOSE=1 example_thread"/>
+					<CompileFile command="/usr/bin/gmake -j6 -f &quot;/tmp/tmp.GSvadcqACu/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j6 -f &quot;/tmp/tmp.GSvadcqACu/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j6 -f &quot;/tmp/tmp.GSvadcqACu/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="example_thread/fast">
+				<Option output="/tmp/tmp.GSvadcqACu/cmake-build-debug/example_thread" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/tmp/tmp.GSvadcqACu/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/tmp/tmp.GSvadcqACu/thirdpart/libco"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../include/c++/4.8.5"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../include/c++/4.8.5/x86_64-redhat-linux"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../include/c++/4.8.5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j6 -f &quot;/tmp/tmp.GSvadcqACu/cmake-build-debug/Makefile&quot;  VERBOSE=1 example_thread/fast"/>
+					<CompileFile command="/usr/bin/gmake -j6 -f &quot;/tmp/tmp.GSvadcqACu/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j6 -f &quot;/tmp/tmp.GSvadcqACu/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j6 -f &quot;/tmp/tmp.GSvadcqACu/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="colib_shared">
+				<Option output="/tmp/tmp.GSvadcqACu/cmake-build-debug/thirdpart/libco/libcolib.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/tmp/tmp.GSvadcqACu/cmake-build-debug/thirdpart/libco"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../include/c++/4.8.5"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../include/c++/4.8.5/x86_64-redhat-linux"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../include/c++/4.8.5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j6 -f &quot;/tmp/tmp.GSvadcqACu/cmake-build-debug/thirdpart/libco/Makefile&quot;  VERBOSE=1 colib_shared"/>
+					<CompileFile command="/usr/bin/gmake -j6 -f &quot;/tmp/tmp.GSvadcqACu/cmake-build-debug/thirdpart/libco/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j6 -f &quot;/tmp/tmp.GSvadcqACu/cmake-build-debug/thirdpart/libco/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j6 -f &quot;/tmp/tmp.GSvadcqACu/cmake-build-debug/thirdpart/libco/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="colib_shared/fast">
+				<Option output="/tmp/tmp.GSvadcqACu/cmake-build-debug/thirdpart/libco/libcolib.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/tmp/tmp.GSvadcqACu/cmake-build-debug/thirdpart/libco"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../include/c++/4.8.5"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../include/c++/4.8.5/x86_64-redhat-linux"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../include/c++/4.8.5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j6 -f &quot;/tmp/tmp.GSvadcqACu/cmake-build-debug/thirdpart/libco/Makefile&quot;  VERBOSE=1 colib_shared/fast"/>
+					<CompileFile command="/usr/bin/gmake -j6 -f &quot;/tmp/tmp.GSvadcqACu/cmake-build-debug/thirdpart/libco/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j6 -f &quot;/tmp/tmp.GSvadcqACu/cmake-build-debug/thirdpart/libco/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j6 -f &quot;/tmp/tmp.GSvadcqACu/cmake-build-debug/thirdpart/libco/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="colib_static">
+				<Option output="/tmp/tmp.GSvadcqACu/cmake-build-debug/thirdpart/libco/libcolib.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/tmp/tmp.GSvadcqACu/cmake-build-debug/thirdpart/libco"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../include/c++/4.8.5"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../include/c++/4.8.5/x86_64-redhat-linux"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../include/c++/4.8.5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j6 -f &quot;/tmp/tmp.GSvadcqACu/cmake-build-debug/thirdpart/libco/Makefile&quot;  VERBOSE=1 colib_static"/>
+					<CompileFile command="/usr/bin/gmake -j6 -f &quot;/tmp/tmp.GSvadcqACu/cmake-build-debug/thirdpart/libco/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j6 -f &quot;/tmp/tmp.GSvadcqACu/cmake-build-debug/thirdpart/libco/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j6 -f &quot;/tmp/tmp.GSvadcqACu/cmake-build-debug/thirdpart/libco/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="colib_static/fast">
+				<Option output="/tmp/tmp.GSvadcqACu/cmake-build-debug/thirdpart/libco/libcolib.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/tmp/tmp.GSvadcqACu/cmake-build-debug/thirdpart/libco"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../include/c++/4.8.5"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../include/c++/4.8.5/x86_64-redhat-linux"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../include/c++/4.8.5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j6 -f &quot;/tmp/tmp.GSvadcqACu/cmake-build-debug/thirdpart/libco/Makefile&quot;  VERBOSE=1 colib_static/fast"/>
+					<CompileFile command="/usr/bin/gmake -j6 -f &quot;/tmp/tmp.GSvadcqACu/cmake-build-debug/thirdpart/libco/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j6 -f &quot;/tmp/tmp.GSvadcqACu/cmake-build-debug/thirdpart/libco/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j6 -f &quot;/tmp/tmp.GSvadcqACu/cmake-build-debug/thirdpart/libco/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/tmp/tmp.GSvadcqACu/example_closure.cpp">
+			<Option target="example_closure"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.GSvadcqACu/example_consumer.cpp">
+			<Option target="example_consumer"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.GSvadcqACu/example_copystack.cpp">
+			<Option target="example_copystack"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.GSvadcqACu/example_echocli.cpp">
+			<Option target="example_echocli"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.GSvadcqACu/example_echosvr.cpp">
+			<Option target="example_echosvr"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.GSvadcqACu/example_loop.cpp">
+			<Option target="example_loop"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.GSvadcqACu/example_multi_consumer.cpp">
+			<Option target="example_multi_consumer"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.GSvadcqACu/example_poll.cpp">
+			<Option target="example_poll"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.GSvadcqACu/example_setenv.cpp">
+			<Option target="example_setenv"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.GSvadcqACu/example_specific.cpp">
+			<Option target="example_specific"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.GSvadcqACu/example_thread.cpp">
+			<Option target="example_thread"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.GSvadcqACu/thirdpart/libco/co_comm.cpp">
+			<Option target="colib_shared"/>
+			<Option target="colib_static"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.GSvadcqACu/thirdpart/libco/co_comm.h">
+			<Option target="colib_shared"/>
+			<Option target="colib_static"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.GSvadcqACu/thirdpart/libco/co_epoll.cpp">
+			<Option target="colib_shared"/>
+			<Option target="colib_static"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.GSvadcqACu/thirdpart/libco/co_epoll.h">
+			<Option target="colib_shared"/>
+			<Option target="colib_static"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.GSvadcqACu/thirdpart/libco/co_hook_sys_call.cpp">
+			<Option target="colib_shared"/>
+			<Option target="colib_static"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.GSvadcqACu/thirdpart/libco/co_routine.cpp">
+			<Option target="colib_shared"/>
+			<Option target="colib_static"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.GSvadcqACu/thirdpart/libco/co_routine.h">
+			<Option target="colib_shared"/>
+			<Option target="colib_static"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.GSvadcqACu/thirdpart/libco/coctx.cpp">
+			<Option target="colib_shared"/>
+			<Option target="colib_static"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.GSvadcqACu/thirdpart/libco/coctx.h">
+			<Option target="colib_shared"/>
+			<Option target="colib_static"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.GSvadcqACu/thirdpart/libco/coctx_swap.S">
+			<Option target="colib_shared"/>
+			<Option target="colib_static"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.GSvadcqACu/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.GSvadcqACu/thirdpart/libco/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\thirdpart\libco\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

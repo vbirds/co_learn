@@ -1,0 +1,17 @@
+/tmp/tmp.GSvadcqACu/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/tmp/tmp.GSvadcqACu/cmake-build-debug/CMakeFiles/edit_cache.dir
+/tmp/tmp.GSvadcqACu/cmake-build-debug/CMakeFiles/example_closure.dir
+/tmp/tmp.GSvadcqACu/cmake-build-debug/CMakeFiles/example_setenv.dir
+/tmp/tmp.GSvadcqACu/cmake-build-debug/CMakeFiles/example_copystack.dir
+/tmp/tmp.GSvadcqACu/cmake-build-debug/CMakeFiles/example_specific.dir
+/tmp/tmp.GSvadcqACu/cmake-build-debug/CMakeFiles/example_consumer.dir
+/tmp/tmp.GSvadcqACu/cmake-build-debug/CMakeFiles/example_echocli.dir
+/tmp/tmp.GSvadcqACu/cmake-build-debug/CMakeFiles/example_loop.dir
+/tmp/tmp.GSvadcqACu/cmake-build-debug/CMakeFiles/example_echosvr.dir
+/tmp/tmp.GSvadcqACu/cmake-build-debug/CMakeFiles/example_poll.dir
+/tmp/tmp.GSvadcqACu/cmake-build-debug/CMakeFiles/example_multi_consumer.dir
+/tmp/tmp.GSvadcqACu/cmake-build-debug/CMakeFiles/example_thread.dir
+/tmp/tmp.GSvadcqACu/cmake-build-debug/thirdpart/libco/CMakeFiles/rebuild_cache.dir
+/tmp/tmp.GSvadcqACu/cmake-build-debug/thirdpart/libco/CMakeFiles/edit_cache.dir
+/tmp/tmp.GSvadcqACu/cmake-build-debug/thirdpart/libco/CMakeFiles/colib_shared.dir
+/tmp/tmp.GSvadcqACu/cmake-build-debug/thirdpart/libco/CMakeFiles/colib_static.dir

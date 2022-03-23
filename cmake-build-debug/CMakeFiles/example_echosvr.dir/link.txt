@@ -1,0 +1,1 @@
+/usr/bin/c++ -g CMakeFiles/example_echosvr.dir/example_echosvr.cpp.o -o example_echosvr  thirdpart/libco/libcolib.a -lpthread -ldl 

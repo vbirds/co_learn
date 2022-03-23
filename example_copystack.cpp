@@ -43,6 +43,7 @@ void* RoutineFunc(void* args)
 
 int main()
 {
+    // 创建一个共享栈队列
 	stShareStack_t* share_stack= co_alloc_sharestack(1, 1024 * 128);
 	stCoRoutineAttr_t attr;
 	attr.stack_size = 0;

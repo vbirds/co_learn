@@ -1,0 +1,1 @@
+/usr/bin/c++ -g CMakeFiles/example_consumer.dir/example_consumer.cpp.o -o example_consumer  thirdpart/libco/libcolib.a -lpthread -ldl 
