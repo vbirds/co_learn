@@ -568,7 +568,6 @@ void co_resume( stCoRoutine_t *co )
 	env->pCallStack[ env->iCallStackSize++ ] = co;
 	co_swap( lpCurrRoutine, co );
 
-
 }
 
 
@@ -658,6 +657,7 @@ void co_swap(stCoRoutine_t* curr, stCoRoutine_t* pending_co)
 	}
 	else 
 	{
+        // 共享栈
 		env->pending_co = pending_co;
 		//get last occupy co on the same stack mem
 		stCoRoutine_t* occupy_co = pending_co->stack_mem->occupy_co;
@@ -667,6 +667,7 @@ void co_swap(stCoRoutine_t* curr, stCoRoutine_t* pending_co)
 		env->occupy_co = occupy_co;
 		if (occupy_co && occupy_co != pending_co)
 		{
+            // 保存协程栈数据 occupy_co 为上一个协程
 			save_stack_buffer(occupy_co);
 		}
 	}

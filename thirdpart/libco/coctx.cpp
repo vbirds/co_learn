@@ -75,9 +75,9 @@ enum {
 //    | regs[12]: rbx |
 // hig | regs[13]: rsp |
 enum {
-  kRDI = 7,
-  kRSI = 8,
-  kRETAddr = 9,
+  kRDI = 7, // 参数1
+  kRSI = 8, // 参数2
+  kRETAddr = 9, // 函数返回地址
   kRSP = 13,
 };
 
@@ -109,6 +109,7 @@ int coctx_make(coctx_t* ctx, coctx_pfn_t pfn, const void* s, const void* s1) {
 #elif defined(__x86_64__)
 int coctx_make(coctx_t* ctx, coctx_pfn_t pfn, const void* s, const void* s1) {
   char* sp = ctx->ss_sp + ctx->ss_size - sizeof(void*);
+  // 跳过ctx->ss_size
   sp = (char*)((unsigned long)sp & -16LL);
 
   memset(ctx->regs, 0, sizeof(ctx->regs));
@@ -119,8 +120,8 @@ int coctx_make(coctx_t* ctx, coctx_pfn_t pfn, const void* s, const void* s1) {
 
   ctx->regs[kRETAddr] = (char*)pfn;
 
-  ctx->regs[kRDI] = (char*)s;
-  ctx->regs[kRSI] = (char*)s1;
+  ctx->regs[kRDI] = (char*)s; // 参数1
+  ctx->regs[kRSI] = (char*)s1;// 参数2
   return 0;
 }
 
