@@ -49,6 +49,8 @@ int main()
 	attr.stack_size = 0;
 	attr.share_stack = share_stack;
 
+    printf("share_stack addr :%p\n", attr.share_stack->stack_array[0]->stack_buffer);
+
 	stCoRoutine_t* co[2];
 	int routineid[2];
 	for (int i = 0; i < 2; i++)

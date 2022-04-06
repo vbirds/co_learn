@@ -562,6 +562,7 @@ void co_resume( stCoRoutine_t *co )
 	stCoRoutine_t *lpCurrRoutine = env->pCallStack[ env->iCallStackSize - 1 ];
 	if( !co->cStart )
 	{
+        // 保存co的栈信息 上下文
 		coctx_make( &co->ctx,(coctx_pfn_t)CoRoutineFunc,co,0 );
 		co->cStart = 1;
 	}
@@ -652,12 +653,13 @@ void co_swap(stCoRoutine_t* curr, stCoRoutine_t* pending_co)
 
 	if (!pending_co->cIsShareStack)
 	{
+        // 独立栈有自己各自的空间，不需要处理
 		env->pending_co = NULL;
 		env->occupy_co = NULL;
 	}
 	else 
 	{
-        // 共享栈
+        // 共享栈,会使用同一块空间保存栈空间
 		env->pending_co = pending_co;
 		//get last occupy co on the same stack mem
 		stCoRoutine_t* occupy_co = pending_co->stack_mem->occupy_co;

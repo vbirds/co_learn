@@ -108,8 +108,8 @@ int coctx_make(coctx_t* ctx, coctx_pfn_t pfn, const void* s, const void* s1) {
 }
 #elif defined(__x86_64__)
 int coctx_make(coctx_t* ctx, coctx_pfn_t pfn, const void* s, const void* s1) {
+  // 栈是高地址到低地址的,这里分配的堆内存(从低地址到高地址)要移到高位
   char* sp = ctx->ss_sp + ctx->ss_size - sizeof(void*);
-  // 跳过ctx->ss_size
   sp = (char*)((unsigned long)sp & -16LL);
 
   memset(ctx->regs, 0, sizeof(ctx->regs));
